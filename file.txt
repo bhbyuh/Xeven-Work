@@ -1,9 +1,0 @@
-File example.txt created successfully.
-Hello, world!
-Text appended to file example.txt successfully.
-Hello, world!
-This is some additional text.
-File example.txt renamed to new_example.txt successfully.
-Hello, world!
-This is some additional text.
-File new_example.txt deleted successfully.
