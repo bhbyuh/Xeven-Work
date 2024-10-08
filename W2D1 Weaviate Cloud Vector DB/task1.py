@@ -16,8 +16,8 @@ from weaviate.classes.query import MetadataQuery
 
 app = FastAPI()
 
-wcd_url = "https://dmudugysreujpgwgemi3g.c0.us-west3.gcp.weaviate.cloud"
-wcd_api_key = "0TvCJRXIZUEeIBQObKBC9Q9YnaLf0MhDdYDz"
+wcd_url = ""
+wcd_api_key =""
 
 client = weaviate.connect_to_weaviate_cloud(
     cluster_url=wcd_url,
