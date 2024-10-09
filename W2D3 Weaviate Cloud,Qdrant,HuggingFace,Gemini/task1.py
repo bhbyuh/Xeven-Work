@@ -19,9 +19,9 @@ app = FastAPI()
 
 load_dotenv()
 
-api_key = "AIzaSyCH0BB7Kv925qUJFX22WH14ghjB0d1cHDs"
-url = "https://1b29735e-a540-4d6f-ae73-febaa7e95105.europe-west3-0.gcp.cloud.qdrant.io"
-qdrant_api_key = "Px5S3g6dOZPQhd0l222fCIAtxh8Uu-53434TPpoK3DIhj3zm40dttw"
+api_key = ""
+url = ""
+qdrant_api_key = ""
 
 genai.configure(api_key=api_key)
 
@@ -75,7 +75,7 @@ async def create_upload_file(files: List[UploadFile] = File(...)):
         url=url,
         prefer_grpc=True,
         collection_name="files",
-        api_key="Px5S3g6dOZPQhd0l222fCIAtxh8Uu-53434TPpoK3DIhj3zm40dttw",
+        api_key="",
     )
 
     return {"message": f"{len(files)} files uploaded successfully."}
