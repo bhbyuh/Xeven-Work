@@ -11,13 +11,13 @@ import google.generativeai as genai
 
 app = FastAPI()
 
-api_key = "AIzaSyCH0BB7Kv925qUJFX22WH14ghjB0d1cHDs"
+api_key = ""
 genai.configure(api_key=api_key)
 
-wcd_url = "https://dmudugysreujpgwgemi3g.c0.us-west3.gcp.weaviate.cloud"  # Update your Weaviate instance URL
-wcd_api_key = "0TvCJRXIZUEeIBQObKBC9Q9YnaLf0MhDdYDz"           # Weaviate API Key
+wcd_url = ""  # Update your Weaviate instance URL
+wcd_api_key = ""           # Weaviate API Key
 
-huggingface_key = "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"
+huggingface_key = ""
 
 auth_config = AuthApiKey(api_key=wcd_api_key)
 headers = {
