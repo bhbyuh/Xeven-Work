@@ -77,18 +77,18 @@ class GraphState(TypedDict):
 app=FastAPI()
 
 #Gemini API
-api_key = "AIzaSyCH0BB7Kv925qUJFX22WH14ghjB0d1cHDs"
+api_key = ""
 genai.configure(api_key=api_key)
 
 #Hugging Face key
-huggingface_key = "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"
+huggingface_key = ""
 headers = {
     "X-HuggingFace-Api-Key": huggingface_key,
 }
 
 #Weaviate Credentials
-wcd_url = "https://dmudugysreujpgwgemi3g.c0.us-west3.gcp.weaviate.cloud"  # Update your Weaviate instance URL
-wcd_api_key = "0TvCJRXIZUEeIBQObKBC9Q9YnaLf0MhDdYDz"           # Weaviate API Key
+wcd_url = ""  # Update your Weaviate instance URL
+wcd_api_key = ""           # Weaviate API Key
 
 auth_config = AuthApiKey(api_key=wcd_api_key)
 
