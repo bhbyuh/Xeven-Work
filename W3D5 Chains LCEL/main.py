@@ -25,14 +25,14 @@ chat_llm = ChatOpenAI(
 app=FastAPI()
 
 #Hugging Face key
-huggingface_key = "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"
+huggingface_key = ""
 headers = {
     "X-HuggingFace-Api-Key": huggingface_key,
 }
 
 #Weaviate Credentials
-wcd_url = "https://mnpvfip5sm6qeb5qdenatw.c0.us-west3.gcp.weaviate.cloud"
-wcd_api_key ="OO2uShhZWlt3Qr3T9rfCOMZpQ0VfCgK9OTAY"
+wcd_url = ""
+wcd_api_key =""
 
 auth_config = AuthApiKey(api_key=wcd_api_key)
 
