@@ -1,4 +1,4 @@
-# R&D Work Repository - Xeven Work
+# R&D Work Repository - Xeven Solutions Work
 
 ## Introduction
 This repository, titled **Xeven Work**, serves as a collection of my **Research and Development (R&D)** work conducted during my office hours as an **ML Engineer specializing in NLP**. It includes experiments, prototype implementations, and exploratory tasks focused on **Natural Language Processing (NLP)** and **Generative AI (GenAI)**.
